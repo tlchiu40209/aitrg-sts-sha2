@@ -162,8 +162,6 @@ public class WEcSHA2H {
 		lblStatus.setBounds(22, 232, 46, 15);
 		panel.add(lblStatus);
 		
-		lblStatus.setText("Ready");
-		
 	}
 	
 	public static long getCurrentTime() {
