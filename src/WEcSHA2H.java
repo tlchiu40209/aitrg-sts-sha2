@@ -11,6 +11,7 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 public class WEcSHA2H {
@@ -54,7 +55,7 @@ public class WEcSHA2H {
 		frmShaPerformanceTest.setBounds(100, 100, 450, 300);
 		frmShaPerformanceTest.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		JLabel panel = new JLabel();
+		JPanel panel = new JPanel();
 		frmShaPerformanceTest.getContentPane().add(panel,  BorderLayout.CENTER);
 		panel.setLayout(null);
 		
